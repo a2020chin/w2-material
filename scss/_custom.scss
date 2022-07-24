@@ -1,0 +1,27 @@
+.container{
+    max-width: map-get($breakpoint , 'lg' );
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 106px;
+}
+h2{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 84px;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 4px; 
+}
+p,li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 42px;
+}

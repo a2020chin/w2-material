@@ -1,0 +1,37 @@
+$font-primary: "Roboto";
+$container: 1200px;
+
+
+$variable-prefix:             bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix:                      $variable-prefix !default;
+
+
+$columns:   12;
+$grid-gutter-width: 1.5rem ;
+
+
+$color: (
+  "primary":    #56C4C5,
+  "secondary":  #221E1F,
+  "info-color": #221E1F,
+  "navbtn":     #FF5D50,
+  "platform-p": #747474,
+  "white":      #fff,
+  "black":      #000,
+);
+
+$breakpoint: (
+  "lg": $container + 32px,
+  "md": 768px,
+  "sm": 376px,
+);
+$lineheight: (
+  "p": 30px,
+);
+
+$direction: (
+  "t": top,
+  "r": right,
+  "b": bottom,
+  "l": left
+);

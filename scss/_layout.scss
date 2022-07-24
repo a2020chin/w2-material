@@ -1,0 +1,13 @@
+body{
+    font-family: $font-primary , sans-serif;
+    font-style: italic;
+}
+.hero_banner{
+    width: 100%;
+    z-index: -1;
+    background: url(../images/banner.png) no-repeat center center / cover;
+    border: 1px solid #707070;
+    padding-top: 308px;
+    padding-bottom: 308px;
+}
+
